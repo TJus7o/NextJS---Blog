@@ -1,0 +1,70 @@
+@import './variables.scss';
+ 
+    
+.footer {
+    width: 100%;
+    padding: 4em;
+    background-color: white;
+    color: $primary-blue;
+    border-top-style: outset ;
+    
+    .miniLogo{
+        padding-left: 10px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-between;
+        width: 280px;
+        
+    }
+
+
+    .top {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bottom {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left {
+        display: flex;
+        align-items: center;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    @media screen and (max-width: 1140px) {
+        ul {
+            flex-direction: column;
+        
+        }
+    
+    }
+
+    li {
+        padding: .5rem;
+        color: $primary-blue;
+    }
+
+    a {
+        color: $primary-blue;
+    }
+}
+
+

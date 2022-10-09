@@ -1,0 +1,42 @@
+@import './variables.scss';
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    padding: 4em;
+    background-color: white;
+    position: relative;
+
+    
+
+    a {
+        color: $primary-blue;
+    }
+
+    .home {
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    .bio {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    .home:hover,
+    .bio:hover {
+        text-decoration: underline;
+        text-decoration-color: $primary-orange;
+    }
+}
+
+.subBtn {
+    background-color: #fff;
+    border-color: $primary-orange;
+    color: $primary-blue;
+    font-size: large;
+    font-weight: bold;
+}
+
+

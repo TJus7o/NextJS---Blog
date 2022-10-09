@@ -1,0 +1,51 @@
+@import './variables.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 940px) {
+  h1{ 
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+
+
+}
+
+.button {
+  background: $primary-blue;
+  color: #fff;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
