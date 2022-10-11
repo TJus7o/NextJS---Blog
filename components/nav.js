@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/Link'
+import Image from 'next/image'
 import PopUp from '../pages/pop-up'
 import styles from '../styles/nav.module.scss'
 
@@ -10,6 +11,9 @@ export default function Nav() {
   return <>
   <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}></PopUp>
     <nav className={styles.nav}>
+    <div className={styles.miniLogo}>
+    <Image src='/../public/images/logoMerkle.png' alt='thumbnail' width={180} height={90} objectFit='cover'/>
+    </div>
     <Link href='/'>
     <a className={styles.home}>Front End Blog</a>
     </Link>

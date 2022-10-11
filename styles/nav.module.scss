@@ -5,13 +5,13 @@
     align-items: center;
     gap: 3em;
     padding: 4em;
-    background-color: white;
+    background-color: $primary-blue;
     position: relative;
-
+    z-index: 1;
     
 
     a {
-        color: $primary-blue;
+        color: #fff;
     }
 
     .home {
@@ -32,11 +32,13 @@
 }
 
 .subBtn {
-    background-color: #fff;
-    border-color: $primary-orange;
-    color: $primary-blue;
+    background-color: $primary-orange;
+    color: #fff;
+    border: none;
     font-size: large;
     font-weight: bold;
+    padding: 10px;
+    cursor: pointer;  
 }
 
 

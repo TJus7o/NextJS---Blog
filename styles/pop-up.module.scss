@@ -21,23 +21,24 @@
       border-width: 10px;
       border-style: solid;
       border-color: #fff;
+      color: #fff;
       
   }
 
   .closeBtn{
-    background-color: #fff; 
-    color: $primary-blue;
-    position: absolute;
+    background-color: $primary-orange; 
+    color: #fff;
+    position: fixed;
     right: 0;
-    padding: 10;
-    top: 150px;
-    right: 570px;
+    top: 170px;
+    right: 581px;
     width: 100px;
     height: 30px;
     font-size: large;
     font-weight: bolder;
     border-style: solid;
     border-color: $primary-orange;
+   
    
 
     @media only screen and (max-width: 689px) {
@@ -118,9 +119,10 @@
   margin-top: 50px;
   font-size: large;
   font-weight: bolder;
-  border-style: solid;
-  border-color: $primary-orange;
-  background-color: #fff;
+  border: none;
+  background-color: $primary-orange;
+  color: #fff;
+  cursor: pointer;
 }
 
 .checkbox {
@@ -135,11 +137,8 @@
 
 .terms {
   font-weight: bold;
-  color: #fff;
+  color: #be9656;
 
-  a {
-    color: #be9656;
-  }
 }
 }
 

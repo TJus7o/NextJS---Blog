@@ -5,8 +5,10 @@
     width: 100%;
     padding: 4em;
     background-color: white;
-    color: $primary-blue;
-    border-top-style: outset ;
+    background-color: $primary-blue;
+    bottom: 0px;
+    
+    
     
     .miniLogo{
         padding-left: 10px;
@@ -59,11 +61,11 @@
 
     li {
         padding: .5rem;
-        color: $primary-blue;
+        color: #fff;
     }
 
     a {
-        color: $primary-blue;
+        color: #fff;
     }
 }
 

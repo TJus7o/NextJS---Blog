@@ -1,59 +1,56 @@
+@import './variables.scss';
+
 .articleList {
   display: flex;
   height: fit-content;
   gap: 1em;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 5em;
-}
+  background-color: $primary-blue;
+  
+  
 
-.item {
-  background-color: brown;
-  border-radius: 0.5em;
-  background-color: #fff;
-  padding: 1em;
-  width: 20em;
-  text-align: center;
-  cursor: pointer;
-  box-shadow: 0 0 0.5em #27272733;
-  transition: all 0.3s ease-in-out;
-}
+  .item {
+    border-radius: 0.5em;
+    background-color: $primary-blue;
+    color: #fff;
+    padding: 1em;
+    width: 50em;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 
-.item:hover {
-  transform: scale(1.05);
-}
+    .thumbnail {
 
-.title {
-  font-size: 1.2em;
-  font-weight: 400;
-}
+      img {
+        border-radius: 0.5em;
+        width: 100%;
+      }
+       
+      
+    }
 
-.title:hover {
-  text-decoration: underline;
-}
+    .title {
+      font-size: 1.2em;
+      font-weight: 400;
+    }
 
-.description {
-  font-size: 0.96em;
-  font-weight: 300;
-}
+    .description {
+      font-size: 0.96em;
+      font-weight: 300;
+    }
+    
+    .date {
+      margin: unset;
+      font-size: 0.9em;
+      color: #fff;
+    }
+    
 
-.date {
-  margin: unset;
-  font-size: 0.9em;
-  color: #222222;
-}
-
-.thumbnail {
-  transition: all 0.3s ease-in-out;
-}
-
-/* .thumbnail:hover {
-  transform: scale(1.05);
-} */
-
-.thumbnail img {
-  border-radius: 0.2em;
-  width: 100%;
+    p {
+      color: #fff;
+    }
+  }
 }
 
 
@@ -64,24 +61,13 @@
   font-size: 16px;
   line-height: 50px;
   border-radius: 25px;
-  background-color: var(--primary-blue);
-  margin-top: auto;
-  border-style: outset;
-  border-color: #252e48;
-  border-width: 4px;
+  background-color: #f1f1f1;
 }
 
 .chip img {
   float: left;
   margin: 0 10px 0 -25px;
-  height: 40px;
+  height: 50px;
   width: 50px;
-  border-radius: 45%;
-  border-style: inset;
-  border-width: 2px;
-  border-color: #be9656;
-}
-
-.chip :hover {
-  color: white;
+  border-radius: 50%;
 }

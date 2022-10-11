@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Image1 from '../public/images/envelope.png'
 import Image2 from '../public/images/mini.jpg'
 import styles from '../styles/pop-up.module.scss'
+import Link from 'next/Link'
 import { useForm } from 'react-hook-form'
 
 
@@ -47,10 +48,9 @@ function popUp(props) {
             />
             </div>
             </div>
-            
-            <div className={styles.terms}>
-            <p>Terms available <a href='/'>here.</a></p>
-            </div>
+            <Link href='https://merkleinc.ch/en/data-protection'>
+          <a className={styles.terms}> See terms here </a>
+            </Link>
             <div className={styles.checkbox}>
               <input
                id='checkBox' type='checkbox' 
