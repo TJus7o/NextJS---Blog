@@ -4,8 +4,7 @@
 .footer {
     width: 100%;
     padding: 4em;
-    background-color: white;
-    background-color: $primary-blue;
+    background-color:#fff;
     bottom: 0px;
     
     
@@ -61,11 +60,11 @@
 
     li {
         padding: .5rem;
-        color: #fff;
+        color: $primary-blue;
     }
 
     a {
-        color: #fff;
+        color: $primary-blue;
     }
 }
 

@@ -3,13 +3,15 @@ import path from 'path'
 import { MDXRemote } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
 import SyntaxHighlighter from 'react-syntax-highlighter'
-import styles from '../../styles/post.module.scss'
 import Button from '../../components/button'
+import styles from '../../styles/post.module.scss'
 
 const components = { Button, SyntaxHighlighter }
 
 const PostPage = ({ serializedContent }) => {
     const { frontmatter } = serializedContent
+
+    
 
 return (
     <div className={styles.PostPage}>
@@ -53,6 +55,7 @@ export const getStaticProps = async ({ params }) => {
         },
     }
 
+    
 }
 
 export default PostPage
