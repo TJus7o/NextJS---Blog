@@ -34,7 +34,7 @@ const Home = ({ posts }) => {
 
 
       <TagFilter selectedTag={selectedTag} 
-      setSelectedTag={selectedTag}
+      setSelectedTag={setSelectedTag}
       tags={allTagsArr}
       />
 

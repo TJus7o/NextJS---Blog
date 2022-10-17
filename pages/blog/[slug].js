@@ -15,8 +15,11 @@ const PostPage = ({ serializedContent }) => {
 
 return (
     <div className={styles.PostPage}>
+   
+    <div className={styles.mdStyle}>
     <h1>{frontmatter.title}</h1>
     <MDXRemote {...serializedContent} components={ components } />
+    </div>
     </div>
     )
 }
