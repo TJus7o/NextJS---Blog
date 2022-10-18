@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import fs from 'fs'
 import path from 'path'
 import { MDXRemote } from 'next-mdx-remote'
@@ -14,13 +15,19 @@ const PostPage = ({ serializedContent }) => {
     
 
 return (
+    <>
+
+    <Head>
+        <title>Front End Blog</title>
+    </Head>
+
     <div className={styles.PostPage}>
-   
     <div className={styles.mdStyle}>
-    <h1>{frontmatter.title}</h1>
+    <h1 className={styles.title}>{frontmatter.title}</h1>
     <MDXRemote {...serializedContent} components={ components } />
     </div>
     </div>
+    </>
     )
 }
 
@@ -45,9 +52,9 @@ export const getStaticProps = async ({ params }) => {
     const serializedContent = await serialize(markdown, {
         format: 'mdx',
         parseFrontmatter: true,
-        scope: '', //podemos fornecer variáveis aos ficheiros mdx via scope
+        scope: '', 
         mdxOptions: {
-            remarkPlugins: [], //podemos colocar plugins para melhorar o aspecto
+            remarkPlugins: [],
             rehypePlugins: []
         }
     })

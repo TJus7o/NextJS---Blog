@@ -1,11 +1,14 @@
 @import './variables.scss';
 
-.postPage {
-    margin: 0 4em 5em;
-    font-size: 1.2em;
-    line-height: 1.5em;
-}
 
 .mdStyle {
-    background-color: red;
+    background-color: $primary-blue;
+    color: #fff;
+    text-align: center;
+    border-style: inset;
+    border-color: $primary-orange;
+
+   h1 {
+    padding: 50px;
+   }
 }

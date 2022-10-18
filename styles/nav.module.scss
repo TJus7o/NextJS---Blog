@@ -7,7 +7,7 @@
     padding: 4em;
     background-color: $primary-blue;
     position: relative;
-    z-index: 1;
+    
     
 
     a {
@@ -38,7 +38,13 @@
     font-size: large;
     font-weight: bold;
     padding: 10px;
-    cursor: pointer;  
+    cursor: pointer;
+    display: flex;  
+
+    @media screen and (max-width: 495px) {
+  
+        font-size: 10px;
+        }
 }
 
 
