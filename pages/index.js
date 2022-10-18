@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react'
 
 const Home = ({ posts }) => {
   const [selectedTag, setSelectedTag] = useState('all')
-  const [filterPosts, setFilteredPosts] = useState(posts)
+  const [filteredPosts, setFilteredPosts] = useState(posts)
 
   const allTagSet = posts.reduce((acc, post) => {
     post.frontmatter.tags?.map(tag => acc.add(tag))
@@ -39,7 +39,9 @@ const Home = ({ posts }) => {
       />
 
       <div className={styles.articleList}>
-        {posts.map((post, index) => (
+        {posts.filter((post) => {
+          return post.frontmatter.tags.includes (selectedTag) || selectedTag === 'all'
+        }).map((post, index) => (
           <Link href={'/blog/' + post.slug} passHref key={index}>
             <a className={styles.item}>
               <div className={styles.thumbnail}>
