@@ -51,16 +51,18 @@ const Home = ({ posts }) => {
                 <h2 className={styles.title}>{post.frontmatter.title}</h2>
                 <p className={styles.description}>{post.frontmatter.description}</p>
                 <p className={styles.date}>{post.frontmatter.date}</p>
-                <Link href='/'>
+                <div className={styles.chipDiv}>
+                <Link href='/' >
                 <a className={styles.chip}>{post.frontmatter.author}
                 <Image className={styles.miniImg}
                 src={post.frontmatter.authorImage} 
                 alt="thumbnail" 
                 width={50} 
                 height={50} 
-                objectFit="cover" />
+                objectFit="responsive" />
                 </a>
                 </Link>
+                </div>
               </div>
             </a>
           </Link>
