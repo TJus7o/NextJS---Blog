@@ -6,13 +6,13 @@
   gap: 1em;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: $primary-blue;
+  background-color: $primary-gray;
   
   
 
   .item {
     border-radius: 0.5em;
-    background-color: $primary-blue;
+    background-color: $primary-gray;
     color: #fff;
     padding: 1em;
     width: 50em;
@@ -62,7 +62,7 @@
         
         line-height: 50px;
         border-radius: 25px;
-        background-color: $primary-blue;
+        background-color: $primary-gray;
         width: 11rem;
         color: #fff;
         flex-direction: row-reverse;

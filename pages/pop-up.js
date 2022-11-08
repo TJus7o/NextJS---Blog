@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Image1 from '../public/images/envelope.png'
-import Image2 from '../public/images/mini.jpg'
 import styles from '../styles/pop-up.module.scss'
 import Link from 'next/Link'
 import { useForm } from 'react-hook-form'

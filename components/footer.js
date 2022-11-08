@@ -11,19 +11,19 @@ function Footer (props){
             <div className={styles.container}>
                 <div className={styles.top}>
                 <div className={styles.miniLogo}>
-                <Image src='/../public/images/mini.jpg' alt='thumbnail' width={50} height={50} objectFit='cover'/>
+                <Image src='/../public/images/Logo tio justo.png' alt='thumbnail' width={180} height={90} objectFit='cover'/>
                 </div>
                     <div className={styles.social}>
-                        <a href='https://www.linkedin.com/company/merkle-dach/mycompany/'>
+                        <a href='/'>
                         <FaLinkedin className={styles.icon}/>
                         </a>
-                        <a href='https://twitter.com/MerkleDACH'>
+                        <a href='/'>
                         <FaTwitter className={styles.icon} />
                         </a>
-                        <a href='https://www.youtube.com/c/MerkleDACH'>
+                        <a href='/'>
                        <FaYoutube className={styles.icon} />
                         </a>
-                        <a href='https://www.instagram.com/merkledach/'>
+                        <a href='/'>
                         <FaInstagram className={styles.icon} />
                         </a>
                     
@@ -32,7 +32,7 @@ function Footer (props){
                 <div className={styles.bottom}>
                     <div className={styles.left}>
                         <ul>
-                            <a href='https://merkleinc.ch/en'>
+                            <a href='/'>
                             <li >About</li>
                             </a>
                             <a href=''>

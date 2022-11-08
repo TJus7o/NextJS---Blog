@@ -12,7 +12,7 @@ export default function Nav() {
   <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}></PopUp>
     <nav className={styles.nav}>
     <div className={styles.miniLogo}>
-    <Image src='/../public/images/logoMerkle.png' alt='thumbnail' width={180} height={90} objectFit='cover'/>
+    <Image src='/../public/images/Logo tio justo.png' alt='thumbnail' width={180} height={90} objectFit='cover'/>
     </div>
     <Link href='/'>
     <a className={styles.home}>Front End Blog</a>

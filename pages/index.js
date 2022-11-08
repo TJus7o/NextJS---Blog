@@ -51,7 +51,7 @@ const Home = ({ posts }) => {
                 <h2 className={styles.title}>{post.frontmatter.title}</h2>
                 <p className={styles.description}>{post.frontmatter.description}</p>
                 <p className={styles.date}>{post.frontmatter.date}</p>
-                <div className={styles.chipDiv}>
+                {/*<div className={styles.chipDiv}>
                 <Link href='/' >
                 <a className={styles.chip}>{post.frontmatter.author}
                 <Image className={styles.miniImg}
@@ -62,7 +62,7 @@ const Home = ({ posts }) => {
                 objectFit="responsive" />
                 </a>
                 </Link>
-                </div>
+        </div>*/}
               </div>
             </a>
           </Link>
