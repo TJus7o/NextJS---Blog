@@ -47,7 +47,7 @@ function PopUp(props) {
             />
             </div>
             </div>
-            <Link href='https://merkleinc.ch/en/data-protection'>
+            <Link href='/'>
           <a className={styles.terms}> See terms here </a>
             </Link>
             <div className={styles.checkbox}>
