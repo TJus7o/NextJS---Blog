@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Image1 from '../public/images/envelope.png'
+import Image1 from '../public/images/Logo tio justo.png'
 import styles from '../styles/pop-up.module.scss'
 import Link from 'next/Link'
 import { useForm } from 'react-hook-form'
@@ -17,9 +17,9 @@ function popUp(props) {
         <form  className={`${styles.popupInner} ${styles.row} ${styles.container}`}>
         <div className={`${styles.bannerNewsletter} ${styles.col1}`} col-1>
         <Image
-        src={Image2}
+        src={Image1}
         alt="logo"
-        width="50"
+        width="100"
         height="50"
         layout="fixed" 
     />

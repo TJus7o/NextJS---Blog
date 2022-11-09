@@ -17,7 +17,7 @@ export default function Nav() {
     <Link href='/'>
     <a className={styles.home}>Front End Blog</a>
     </Link>
-    <Link href='https://merkleinc.ch/en'>
+    <Link href='/'>
     <a className={styles.bio}>About</a>
     </Link>
 
