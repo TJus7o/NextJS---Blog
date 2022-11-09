@@ -33,18 +33,18 @@ function Footer (props){
                 <div className={styles.bottom}>
                     <div className={styles.left}>
                         <ul>
-                            <a href='/'>
+                            <Link href='/'>
                             <li >About</li>
-                            </a>
-                            <a href=''>
+                            </Link>
+                            <Link href=''>
                             <li>Partnerships</li>
-                            </a>
-                            <a href=''>
+                            </Link>
+                            <Link href=''>
                             <li>Careers</li>
-                            </a>
-                            <a href=''>
+                            </Link>
+                            <Link href=''>
                             <li>Advertising</li>
-                            </a>
+                            </Link>
                         </ul>
                     </div>
                     <div className={styles.right}>
