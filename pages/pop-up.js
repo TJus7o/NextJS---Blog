@@ -2,13 +2,11 @@ import Image from 'next/image'
 import Image1 from '../public/images/Logo tio justo.png'
 import styles from '../styles/pop-up.module.scss'
 import Link from 'next/link'
-import { useForm } from 'react-hook-form'
+
 
 
 function PopUp(props) {
   
-  const {register, handleSubmit, formState:{errors}} = useForm()
-
 
   return (props.trigger) ? (
     <div className={styles.containerPopup} >
