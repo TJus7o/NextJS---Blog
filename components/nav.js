@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Link from 'next/Link'
+import Link from 'next/link'
 import Image from 'next/image'
 import PopUp from '../pages/pop-up'
 import styles from '../styles/nav.module.scss'
