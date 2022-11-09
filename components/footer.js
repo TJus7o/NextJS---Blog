@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/Link'
 
 import styles from '../styles/footer.module.scss'
 
@@ -14,18 +15,18 @@ function Footer (props){
                 <Image src='/../public/images/Logo tio justo.png' alt='thumbnail' width={180} height={90} objectFit='cover'/>
                 </div>
                     <div className={styles.social}>
-                        <a href='/'>
+                        <Link href='/'>
                         <FaLinkedin className={styles.icon}/>
-                        </a>
-                        <a href='/'>
+                        </Link>
+                        <Link href='/'>
                         <FaTwitter className={styles.icon} />
-                        </a>
-                        <a href='/'>
+                        </Link>
+                        <Link href='/'>
                        <FaYoutube className={styles.icon} />
-                        </a>
-                        <a href='/'>
+                        </Link>
+                        <Link href='/'>
                         <FaInstagram className={styles.icon} />
-                        </a>
+                        </Link>
                     
                     </div>
                 </div>

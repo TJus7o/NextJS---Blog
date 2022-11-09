@@ -5,7 +5,7 @@ import Link from 'next/Link'
 import { useForm } from 'react-hook-form'
 
 
-function popUp(props) {
+function PopUp(props) {
   
   const {register, handleSubmit, formState:{errors}} = useForm()
 
@@ -70,4 +70,4 @@ function popUp(props) {
   ) : ''
 }
 
-export default popUp
+export default PopUp
