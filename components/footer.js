@@ -27,18 +27,6 @@ function Footer (props){
                     
                     </div>
                 </div>
-                <div className={styles.bottom}>
-                    <div className={styles.left}>
-                        <ul>
-                            <a href='https://portfolio-sigma-brown.vercel.app' target='_blank' rel='noreferrer'>
-                            <li >Quem Sou?</li>
-                            </a>
-                            <a href='' target='_blank' rel='noreferrer'>
-                            <li>Parcerias</li>
-                            </a>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
     )
