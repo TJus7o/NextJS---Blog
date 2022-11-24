@@ -12,6 +12,12 @@
   @media screen and (max-width: 495px) {
   
     padding-top: 4rem;
+
+    &:hover {
+      transform: none;
+      border-radius: none;
+      
+  }
     }
 
   .item {
