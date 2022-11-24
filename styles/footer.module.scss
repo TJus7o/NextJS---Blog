@@ -3,14 +3,30 @@
     
 .footer {
     width: 100%;
-    padding: 2em;
+    padding: 4em;
     background-color: $primary-gray;
     border-top-style: outset;
     border-color: #BE8736;
     
     
+    
     .miniLogo{
         padding-left: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            scale: 110%;
+        }
+
+        @media screen and (max-width: 495px) {
+  
+            display: none;
+            }
+    }
+
+    .bio {
+        display: none;
     }
 
     .social {

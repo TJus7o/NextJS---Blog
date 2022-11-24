@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 import styles from '../styles/footer.module.scss'
@@ -12,7 +13,10 @@ function Footer (props){
             <div className={styles.container}>
                 <div className={styles.top}>
                 <div className={styles.miniLogo}>
+                <Link href='/'>
                 <Image src='/images/Bl.png' alt='logo' width={180} height={90} objectFit='cover'/>
+                </Link>
+                <a href='https://portfolio-tiago-justo.vercel.app' className={styles.bio} target='_blank' rel='noreferrer'>Portfólio</a>
                 </div>
                     <div className={styles.social}>
                         <a href='https://www.linkedin.com/in/tiago-justo/' target='_blank' rel='noreferrer'>

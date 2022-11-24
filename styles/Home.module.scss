@@ -9,7 +9,10 @@
   background-color: $primary-gray;
   padding-bottom: 4rem;
 
+  @media screen and (max-width: 495px) {
   
+    padding-top: 4rem;
+    }
 
   .item {
     border-radius: 0.5em;

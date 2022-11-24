@@ -7,13 +7,29 @@
     padding: 4em;
     background-color: $primary-gray;
     position: relative;
-    
-    
 
-    a {
-        color: #fff;
+    @media screen and (max-width: 495px) {
+  
+        border-bottom-style: solid;
+        border-bottom-color: #BE8736;
+        }
+
+    .miniLogo {
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            scale: 110%;
+        } 
+
+        @media screen and (max-width: 495px) {
+  
+            scale: 110%;
+            
+            }
     }
 
+   
     .home {
         font-size: 2em;
         font-weight: 500;
@@ -22,29 +38,69 @@
     .bio {
         font-size: 1.5em;
         font-weight: 400;
+        color: #fff;
+        border-style:outset;
+        padding: 1rem;
+        border-color: $primary-orange;
+        font-size: large;
+        font-weight: bold;
+        height: 60px;
+        max-width: 200px;
+        border-radius: 30px;
+
+        &:hover {
+            background-color: $primary-orange;
+            border-style: inset;
+            transition: background-color 0.3s;
+            border-color: #BE8736;
+        }
+
+
+        @media screen and (max-width: 495px) {
+  
+            display: none;
+            
+            }
+       
     }
 
-    .home:hover,
-    .bio:hover {
-        text-decoration: underline;
-        text-decoration-color: $primary-orange;
-    }
+  
+
 }
 
 .subBtn {
-    background-color: $primary-orange;
+    background: $primary-orange;
     color: #fff;
-    border: none;
-    border-radius: 10px;
-    font-size: large;
-    font-weight: bold;
-    padding: 10px;
-    cursor: pointer;
-    display: flex;  
+    border-style:inset;
+        padding: 1rem;
+        font-size: 1.5em;
+        font-weight: 400;
+        height: 60px;
+        max-width: 200px;
+        border-radius: 30px;
+        cursor: pointer;  
+        animation-name: change;
+        animation-duration: 4s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
 
+        &:hover {
+            background-color: $primary-orange;
+            border-style: outset;
+            transition: background-color 0.3s;
+            border-color: #BE8736;
+        }
+
+    @keyframes change {
+        25%  {background-color:$primary-orange; left:200px; top:0px;}
+        50%  {background-color:#BE8736; left:200px; top:200px;}
+       
+    }
+    
     @media screen and (max-width: 495px) {
   
         font-size: 10px;
+        
         }
 }
 

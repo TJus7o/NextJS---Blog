@@ -8,6 +8,10 @@
     gap: 1rem;
     padding: 40px;
    
+    @media screen and (max-width: 495px) {
+  
+        display: none;
+        }
     
     
     .button {
