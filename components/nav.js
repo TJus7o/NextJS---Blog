@@ -12,7 +12,7 @@ export default function Nav() {
   <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}></PopUp>
     <nav className={styles.nav}>
     <div className={styles.miniLogo}>
-    <Image src='/../public/images/Bl.png' alt='thumbnail' width={280} height={100} objectFit='cover'/>
+    <Image src='/public/images/Bl.png' alt='thumbnail' width={280} height={100} objectFit='cover'/>
     </div>
     <a href='https://portfolio-sigma-brown.vercel.app' className={styles.bio} target='_blank' rel='noreferrer'>Quem Sou Eu?</a>
     <div>
