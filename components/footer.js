@@ -12,7 +12,7 @@ function Footer (props){
             <div className={styles.container}>
                 <div className={styles.top}>
                 <div className={styles.miniLogo}>
-                <Image src='/public/images/Bl.png' alt='logo' width={180} height={90} objectFit='cover'/>
+                <Image src='static/public/images/Bl.png' alt='logo' width={180} height={90} objectFit='cover'/>
                 </div>
                     <div className={styles.social}>
                         <a href='https://www.linkedin.com/in/tiago-justo/' target='_blank' rel='noreferrer'>
