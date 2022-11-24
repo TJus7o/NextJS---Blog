@@ -12,17 +12,11 @@ export default function Nav() {
   <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}></PopUp>
     <nav className={styles.nav}>
     <div className={styles.miniLogo}>
-    <Image src='/../public/images/Logo tio justo.png' alt='thumbnail' width={180} height={90} objectFit='cover'/>
+    <Image src='/../public/images/Bl.png' alt='thumbnail' width={280} height={100} objectFit='cover'/>
     </div>
-    <Link href='/'>
-    <a className={styles.home}>Front End Blog</a>
-    </Link>
-    <Link href='/'>
-    <a className={styles.bio}>About</a>
-    </Link>
-
+    <a href='https://portfolio-sigma-brown.vercel.app' className={styles.bio} target='_blank'>Quem Sou Eu?</a>
     <div>
-     <button className={styles.subBtn} onClick={() => setButtonPopup(true)}>Subscribe</button>
+     <button className={styles.subBtn} onClick={() => setButtonPopup(true)}>Subscreve</button>
     </div>
 
     </nav>

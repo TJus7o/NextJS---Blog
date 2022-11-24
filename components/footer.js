@@ -12,47 +12,30 @@ function Footer (props){
             <div className={styles.container}>
                 <div className={styles.top}>
                 <div className={styles.miniLogo}>
-                <Image src='/../public/images/Logo tio justo.png' alt='thumbnail' width={180} height={90} objectFit='cover'/>
+                <Image src='/../public/images/Bl.png' alt='thumbnail' width={180} height={90} objectFit='cover'/>
                 </div>
                     <div className={styles.social}>
-                        <Link href='/'>
+                        <a href='https://www.linkedin.com/in/tiago-justo/' target='_blank'>
                         <FaLinkedin className={styles.icon}/>
-                        </Link>
-                        <Link href='/'>
+                        </a>
+                        <a href='https://twitter.com/TJusto7' target='_blank'>
                         <FaTwitter className={styles.icon} />
-                        </Link>
-                        <Link href='/'>
-                       <FaYoutube className={styles.icon} />
-                        </Link>
-                        <Link href='/'>
+                        </a>
+                        <a href='https://www.instagram.com/tjus7o/' target='_blank'>
                         <FaInstagram className={styles.icon} />
-                        </Link>
+                        </a>
                     
                     </div>
                 </div>
                 <div className={styles.bottom}>
                     <div className={styles.left}>
                         <ul>
-                            <Link href='/'>
-                            <li >About</li>
-                            </Link>
-                            <Link href=''>
-                            <li>Partnerships</li>
-                            </Link>
-                            <Link href=''>
-                            <li>Careers</li>
-                            </Link>
-                            <Link href=''>
-                            <li>Advertising</li>
-                            </Link>
-                        </ul>
-                    </div>
-                    <div className={styles.right}>
-                        <ul>
-                            <li>Contact</li>                       
-                            <li>Policy</li>
-                            <li>Privacy</li>   
-                            <li>Contact</li>
+                            <a href='https://portfolio-sigma-brown.vercel.app' target='_blank'>
+                            <li >Quem Sou?</li>
+                            </a>
+                            <a href='' target='_blank'>
+                            <li>Parcerias</li>
+                            </a>
                         </ul>
                     </div>
                 </div>

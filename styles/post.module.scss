@@ -5,8 +5,8 @@
     background-color: $primary-gray;
     color: #fff;
     text-align: center;
-    border-style: inset;
-    border-color: $primary-orange;
+    max-height: 100vh;
+    padding-bottom: 1.5rem;
 
    h1 {
     padding: 50px;

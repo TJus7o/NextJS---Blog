@@ -3,10 +3,10 @@
     
 .footer {
     width: 100%;
-    padding: 4em;
+    padding: 2em;
     background-color: $primary-gray;
-    bottom: 0px;
-    
+    border-top-style: outset;
+    border-color: $primary-orange;
     
     
     .miniLogo{
@@ -15,8 +15,8 @@
 
     .social {
         display: flex;
-        justify-content: space-between;
-        width: 280px;
+        justify-content: space-around;
+        width: 380px;
         
     }
 
@@ -65,6 +65,8 @@
 
     svg {
         color: $primary-orange;
+        height: 100%;
+        scale: 1.5;
     }
 }
 

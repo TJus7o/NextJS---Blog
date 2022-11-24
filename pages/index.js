@@ -29,7 +29,7 @@ const Home = ({ posts }) => {
   return (
     <>
       <Head>
-        <title>Front End Blog</title>
+        <title>Blog do Justo</title>
       </Head>
 
 

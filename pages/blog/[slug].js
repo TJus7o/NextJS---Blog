@@ -18,7 +18,7 @@ return (
     <>
 
     <Head>
-        <title>Front End Blog</title>
+        <title>Blog do Justo</title>
     </Head>
 
     <div className={styles.PostPage}>
